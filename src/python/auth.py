@@ -6,8 +6,8 @@ import hmac
 import hashlib
 
 #general, ads, trade endpoints
-api_key = 'N3YJQQCT4ZDQL5SK2OH33QD5C4NZQH2I' #put here your public key
-secret_key = 'J3RJ23RXK2AC7DQCIKOD4CJEOXRMAODEXMR2PHKMFN5HYVSJ27JBO5P5OBDH3DNU' #put here your secret key
+api_key = '' #put here your public key
+secret_key = '' #put here your secret key
 path = '/api/v1/ads' #put here request path. 
 getParams = 'currency=USD' #request params (if any)
 nonce = str(int(time.time() * 1000)) #nonce is a timestamp in miliseconds

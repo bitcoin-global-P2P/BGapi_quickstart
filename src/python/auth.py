@@ -14,7 +14,6 @@ nonce = str(int(time.time() * 1000)) #nonce is a number that is always higher th
 request = '/api/v1/dashboard' #put here your request with base URL
 baseUrl = 'https://t2api.coinmoney.net.ua'  #base URL: api.bitcoin.global
 
-
 #preparing payload
 completeUrl = baseUrl + request
 payload = nonce + api_key + path + getParams

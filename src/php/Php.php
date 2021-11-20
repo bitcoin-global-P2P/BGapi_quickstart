@@ -1,10 +1,10 @@
 <?php
 
-$apiKey = 'DZG726DFJYOXYHWC44FJV6AJO7642AKU'; //put here your public key
-	$apiSecret = 'L7YGHHB6544C3MG4ZSMZODHMQTQNLZNPHTZIJQUDVYBBTQQFY2NUPDYDB77VPH3Q'; //put here your secret key
+$apiKey = ''; //put here your public key
+	$apiSecret = ''; //put here your secret key
 	$request = '/api/v1/ads'; //put here request path. For obtaining ads use: /api/v1/ads
 	$params = 'currency=USD';
-	$baseUrl = 'https://t2api.coinmoney.net.ua'; //domain without last slash. Do not use https://api.bitcoin.global/
+	$baseUrl = ''; //domain without last slash. Do not use https://api.bitcoin.global/
 	//If the nonce is similar to or lower than the previous request number, you will receive the 'too many requests' error message
 	$nonce = (int) (microtime(true) * 1000); //nonce is a number that is always higher than the previous request number
 	$message = $nonce . $apiKey . $request . $params;

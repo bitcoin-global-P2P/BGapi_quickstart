@@ -18,7 +18,7 @@ namespace AdsList
             var apiSecret = ""; // put here your secret key
             var request = "/api/v1/ads"; // put here request path. For obtaining trading balance use: /api/v4/trade-account/balance
             var params = "currency=EUR";
-            var hostname = "https://api.bitcoin.global"; // domain without last slash. Do not use https://api.bitcoin.global/
+            var hostname = ""; // domain without last slash. Do not use https://api.bitcoin.global/
 
             // If the nonce is similar to or lower than the previous request number, you will receive the 'too many requests' error message
             // nonce is a number that is always higher than the previous request number

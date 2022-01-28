@@ -71,9 +71,9 @@ func (api *apiHelper) SendRequest(requestURL string, data map[string]string) (re
 
 func main() {
 	provider := apiHelper{
-		PublicKey: "N3YJQQCT4ZDQL5SK2OH33QD5C4NZQH2I", //put here your public key
-		SecretKey: "J3RJ23RXK2AC7DQCIKOD4CJEOXRMAODEXMR2PHKMFN5HYVSJ27JBO5P5OBDH3DNU", //put here your secret key
-		BaseURL:   "https://whitebit.com", //domain without last slash. Do not use https://whitebit.com/
+		PublicKey: "", //put here your public key
+		SecretKey: "", //put here your secret key
+		BaseURL:   "", //domain without last slash. Do not use https://whitebit.com/
 	}
 
 	//put here request path. For obtaining trading balance use: /api/v4/trade-account/balance

@@ -47,7 +47,7 @@ int main() {
                        append(R"("})");
 
     // payload and signature
-    string payload = calculate_payload(params, request, nonce);
+    string payload = calculate_message(params, request, nonce);
     string signature = hmac_hex(payload);
 
     /* get a curl handle */
